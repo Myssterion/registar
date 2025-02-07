@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Registar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Registar</string>
+    <string name="nav_header_subtitle">aldin.tursic@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="language">Language</string>
+    <string name="choose_language">Choose language</string>
+    <string name="serbian">Serbian</string>
+    <string name="english">English</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_assets">Asset</string>
+    <string name="menu_employees">Employees</string>
+    <string name="menu_locations">Locations</string>
+    <string name="menu_inventory">Inventory</string>
+
+    <string name="filter_name">Search by name</string>
+    <string name="filter_surname">Search by surname</string>
+    <string name="filter_address">Search by address</string>
+    <string name="filter_barcode">Search by barcode</string>
+    <string name="filter_employee">Search by employee name</string>
+
+    <string name="name">Enter name</string>
+    <string name="surname">Enter surname</string>
+    <string name="age">Enter age</string>
+    <string name="save">Save</string>
+    <string name="scan">Scan</string>
+
+    <string name="location_name">Enter location</string>
+    <string name="location_address">Enter address</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+
+    <string name="asset_name">Enter asset name</string>
+    <string name="asset_description">Enter description</string>
+    <string name="barcode">Enter barcode</string>
+    <string name="price">Enter price</string>
+    <string name="date">Select date</string>
+
+    <string name="select">Select</string>
+    <string name="details">Details</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="select_employee">Select employee</string>
+    <string name="select_location">Select location</string>
+    <string name="select_asset">Select asset</string>
+    <string name="location_detail_info">Location info</string>
+    <string name="location_detail_update">Update location</string>
+    <string name="location_detail_add">Add location</string>
+
+    <string name="employee_detail_info">Employee info</string>
+    <string name="employee_detail_update">Update employee</string>
+    <string name="employee_detail_add">Add employee</string>
+
+    <string name="asset_detail_info">Asset info</string>
+    <string name="asset_detail_update">Update asset</string>
+    <string name="asset_detail_add">Add asset</string>
+
+    <string name="inventory_detail">Inventory items</string>
+    <string name="inventory_update_update">Update inventory</string>
+    <string name="inventory_update_add">Add inventory</string>
+
+    <string name="inventory_record_detail">Record detail</string>
+    <string name="inventory_record_add">Add record</string>
+
+    <string name="asset_dialog_barcode_manually">Enter manually</string>
+    <string name="asset_dialog_barcode_scan">Scan barcode</string>
+    <string name="asset_dialog_gallery">Choose from Gallery</string>
+    <string name="asset_dialog_photo">Take Photo</string>
+</resources>

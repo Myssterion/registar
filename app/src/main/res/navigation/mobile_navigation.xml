@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.registar.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id ="@+id/nav_asset"
+        android:name="com.registar.ui.asset.AssetFragment"
+        android:label="@string/menu_assets"
+        tools:layout="@layout/fragment_asset" >
+        <action
+            android:id="@+id/action_nav_asset_to_assetDetailFragment"
+            app:destination="@id/assetDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id ="@+id/nav_employees"
+        android:name="com.registar.ui.employee.EmployeeFragment"
+        android:label="@string/menu_employees"
+        tools:layout="@layout/fragment_employee" >
+        <action
+            android:id="@+id/action_nav_employees_to_employeeDetailFragment"
+            app:destination="@id/employeeDetailFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id ="@+id/nav_locations"
+        android:name="com.registar.ui.location.LocationFragment"
+        android:label="@string/menu_locations"
+        tools:layout="@layout/fragment_location" >
+        <action
+            android:id="@+id/action_nav_locations_to_locationDetailFragment"
+            app:destination="@id/locationDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id ="@+id/nav_inventory"
+        android:name="com.registar.ui.inventory.InventoryFragment"
+        android:label="@string/menu_inventory"
+        tools:layout="@layout/fragment_inventory" >
+        <action
+            android:id="@+id/action_nav_inventory_to_inventoryUpdateFragment"
+            app:destination="@id/inventoryUpdateFragment" />
+        <action
+            android:id="@+id/action_nav_inventory_to_inventoryDetailFragment"
+            app:destination="@id/inventoryDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/employeeDetailFragment"
+        android:name="com.registar.ui.employee.EmployeeDetailFragment"
+        android:label="fragment_employee_detail"
+        tools:layout="@layout/fragment_employee_detail" />
+    <fragment
+        android:id="@+id/locationDetailFragment"
+        android:name="com.registar.ui.location.LocationDetailFragment"
+        android:label="fragment_location_detail"
+        tools:layout="@layout/fragment_location_detail" />
+    <fragment
+        android:id="@+id/assetDetailFragment"
+        android:name="com.registar.ui.asset.AssetDetailFragment"
+        android:label="fragment_asset_detail"
+        tools:layout="@layout/fragment_asset_detail" >
+        <action
+            android:id="@+id/action_assetDetailFragment_to_nav_asset"
+            app:destination="@id/nav_asset" />
+    </fragment>
+    <fragment
+        android:id="@+id/inventoryUpdateFragment"
+        android:name="com.registar.ui.inventory.InventoryUpdateFragment"
+        android:label="fragment_inventory_update"
+        tools:layout="@layout/fragment_inventory_update" />
+    <fragment
+        android:id="@+id/inventoryDetailFragment"
+        android:name="com.registar.ui.inventory.InventoryDetailFragment"
+        android:label="fragment_inventory_detail"
+        tools:layout="@layout/fragment_inventory_detail" >
+        <action
+            android:id="@+id/action_inventoryDetailFragment_to_inventoryRecordDetailFragment"
+            app:destination="@id/inventoryRecordDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inventoryRecordDetailFragment"
+        android:name="com.registar.ui.inventory.InventoryRecordDetailFragment"
+        android:label="fragment_inventory_record_detail"
+        tools:layout="@layout/fragment_inventory_record_detail" />
+</navigation>
